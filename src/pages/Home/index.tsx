@@ -19,7 +19,7 @@ const Home = () => {
       name: "Câmera digital",
       price: "500",
       assessment: 4,
-      isFavorite: false,
+      isFavorite: true,
     },
     {
       id: "2",
@@ -35,7 +35,7 @@ const Home = () => {
       name: "Controle XBOX",
       price: "200",
       assessment: 4,
-      isFavorite: false,
+      isFavorite: true,
     },
     {
       id: "4",
@@ -51,7 +51,7 @@ const Home = () => {
       name: "Headphones sem fio",
       price: "500",
       assessment: 4,
-      isFavorite: false,
+      isFavorite: true,
     },
     {
       id: "6",
@@ -59,7 +59,7 @@ const Home = () => {
       name: "Notebook Lenovo",
       price: "2300",
       assessment: 4,
-      isFavorite: false,
+      isFavorite: true,
     },
     {
       id: "7",

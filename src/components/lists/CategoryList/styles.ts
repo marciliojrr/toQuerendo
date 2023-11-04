@@ -25,4 +25,7 @@ export const Item = styled.div`
 
 export const Image = styled.img``;
 
-export const Description = styled.p``;
+export const Description = styled.p`
+  font-weight: bold;
+  color: #999;
+`;
