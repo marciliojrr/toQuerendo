@@ -2,13 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.footer`
   display: flex;
+  width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 2rem 3.5rem;
   height: 40vh;
 
-  background-color: #f4f4f4;
+  background-color: #e3e3e3;
 `;
 
 export const Section = styled.section`

@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import { Body } from "./styles";
+import { Container, Body } from "./styles";
 
 interface ILayoutProps {
   children: ReactNode;
@@ -9,11 +9,11 @@ interface ILayoutProps {
 
 const Layout = ({ children }: ILayoutProps) => {
   return (
-    <div>
+    <Container>
       <Header />
       <Body>{children}</Body>
       <Footer />
-    </div>
+    </Container>
   );
 };
 

@@ -24,4 +24,9 @@ export const BtnSearch = styled.button`
   font-weight: bold;
   color: #f4f4f4;
   background-color: #252525;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #ffff;
+  }
 `;
