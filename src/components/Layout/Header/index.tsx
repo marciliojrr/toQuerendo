@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <Container>
       <Content>
-        <Logo src="" alt="Logo tô querendo" />
+        <Logo src="src\assets\img\logo_transp_branco.png" alt="Logo tô querendo" />
         <SearchInput />
       </Content>
       <Content>

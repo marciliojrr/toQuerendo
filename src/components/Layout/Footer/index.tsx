@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <Container>
       <Section>
-        <Logo src="" alt="Logo tô querendo" />
+        <Logo src="src\assets\img\logo_transp_branco.png" alt="Logo tô querendo" />
         <FirstContent>
           <AddressText>Rua CodeBlocks, nº 1024, Celândia</AddressText>
           <ContentSocialMidia>

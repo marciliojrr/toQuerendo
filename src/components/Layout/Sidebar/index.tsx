@@ -11,7 +11,7 @@ const Sidebar = () => {
       <Content>
         <Item>
           <AiOutlineUser size={25} />
-          Sign in
+          Login
         </Item>
         <Item>
           <AiOutlineHeart size={25} />
@@ -19,7 +19,7 @@ const Sidebar = () => {
         </Item>
         <Item>
           <AiOutlineShoppingCart size={25} />
-          Anunciar
+          Criar Anúncio
         </Item>
       </Content>
     </Container>

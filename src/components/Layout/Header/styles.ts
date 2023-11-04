@@ -9,7 +9,7 @@ export const Container = styled.header`
   padding: 0 2.5rem 0 2.5rem;
   height: 12vh;
 
-  background-color: #999;
+  background-color: darkslateblue;
 `;
 
 export const Content = styled.div`
