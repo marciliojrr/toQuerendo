@@ -1,9 +1,15 @@
 import Layout from "../../components/Layout";
+import Carousel from "../../components/Layout/Carousel"
 
 const Home = () => {
+  const images = [
+    "src/assets/img/banner_1.png",
+    "src/assets/img/banner_2.png",
+    "src/assets/img/banner_3.png"
+  ];
   return (
     <Layout>
-      <h1>Content Home</h1>
+      <Carousel images={images}/>
     </Layout>
   );
 };
