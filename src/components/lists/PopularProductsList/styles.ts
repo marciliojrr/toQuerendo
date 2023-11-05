@@ -4,10 +4,11 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: flex-end;
   gap: 15px;
 `;
 
-export const Item = styled.div`
+export const Item = styled.a`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -18,6 +19,7 @@ export const Item = styled.div`
   border: 0.5px solid #989898;
   border-radius: 15px;
   padding: 10px;
+  text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
   &:hover {
@@ -56,8 +58,8 @@ export const IsFavorite = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   color: red;
   background-color: #e3e3e3;
 `;

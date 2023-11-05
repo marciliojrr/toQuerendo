@@ -2,6 +2,8 @@ import Layout from "../../components/Layout";
 import Carousel from "../../components/Layout/Carousel";
 import Section from "../../components/Section";
 import CategoryList from "../../components/lists/CategoryList";
+import CommentsList from "../../components/lists/CommentsList";
+import MostWantedList from "../../components/lists/MostWantedList";
 import PopularProductsList from "../../components/lists/PopularProductsList";
 
 const Home = () => {
@@ -89,7 +91,10 @@ const Home = () => {
         <PopularProductsList products={products} />
       </Section>
       <Section title="Serviços Mais Procurados">
-        <p>Lista de Produtos</p>
+        <MostWantedList />
+      </Section>
+      <Section title="">
+        <CommentsList />
       </Section>
     </Layout>
   );

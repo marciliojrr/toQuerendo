@@ -6,7 +6,7 @@ export const Container = styled.div`
   gap: 13px;
 `;
 
-export const Item = styled.div`
+export const Item = styled.a`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,6 +14,7 @@ export const Item = styled.div`
   padding: 12px;
   border-radius: 10px;
   gap: 25px;
+  text-decoration: none;
   background-color: #ffff;
   cursor: pointer;
   transition: all 0.3s ease;

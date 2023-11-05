@@ -1,4 +1,9 @@
-import { AiFillStar, AiOutlineStar, AiTwotoneHeart } from "react-icons/ai";
+import {
+  AiFillStar,
+  AiOutlineStar,
+  AiTwotoneHeart,
+  AiOutlineHeart,
+} from "react-icons/ai";
 import {
   Container,
   Item,
@@ -8,6 +13,7 @@ import {
   Assessment,
   IsFavorite,
 } from "./styles";
+import PrimaryButton from "../../buttons/PrimaryButton";
 
 interface IPopularProductsListProps {
   products: any[];
@@ -18,11 +24,13 @@ const PopularProductsList = ({ products }: IPopularProductsListProps) => {
     <Container>
       {products.map((product) => (
         <Item key={product.id}>
-          {product.isFavorite && (
-            <IsFavorite>
+          <IsFavorite>
+            {product.isFavorite ? (
               <AiTwotoneHeart size={20} />
-            </IsFavorite>
-          )}
+            ) : (
+              <AiOutlineHeart size={20} />
+            )}
+          </IsFavorite>
           <Image src="" alt="Imagem do produto" />
           <Name>{product.name}</Name>
           <Price>{`R$ ${(+product.price).toFixed(2)}`}</Price>
@@ -35,6 +43,7 @@ const PopularProductsList = ({ products }: IPopularProductsListProps) => {
           </Assessment>
         </Item>
       ))}
+      <PrimaryButton>Ver mais</PrimaryButton>
     </Container>
   );
 };
